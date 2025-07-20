@@ -1,0 +1,10 @@
+LangChain is a framework for building context-aware applications using LLMs.
+LangChain is a powerful framework for building applications with Large Language Models (LLMs). It provides modular components like chains, agents, and memory to simplify LLM workflows. Developers use LangChain for building chatbots, question answering systems, and more.
+
+Groq is an inference engine that allows developers to run LLMs like Mixtral and LLaMA at extremely high speed. It offers a free API for developers and is compatible with LangChain through the ChatGroq module.
+
+Retrieval-Augmented Generation (RAG) is a technique where a system retrieves relevant documents from a knowledge base and feeds them to the LLM for more accurate and grounded responses. It improves performance in question answering tasks.
+
+Sentence Transformers are models that convert text into embeddings. These embeddings are used to compare similarity between texts and retrieve relevant chunks from documents using vector databases like FAISS.
+
+FAISS is an open-source vector store used to store and search high-dimensional embeddings. It's commonly used in RAG pipelines to enable semantic search.
